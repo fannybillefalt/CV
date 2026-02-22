@@ -611,7 +611,7 @@ main {
 }
 
 .contact-section {
-  background-color: rgda(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border: 3px solid rgb(210, 191, 239);
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -639,8 +639,34 @@ footer {
   color: rgb(87, 87, 87);
 }
 
-/* RESPONSIV DESIGN - INDEX*/
+/* RESPONSIV DESIGN - INDEX & NAVBAR */
 @media (max-width: 768px) {
+  /* NAVBAR FIX FÖR ALLA SIDOR */
+  .navbar {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .navbar ul {
+    gap: 0.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar li {
+    font-size: 0.75rem;
+  }
+
+  .navbar a {
+    margin: 0.2rem 0.3rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .navbar a.active {
+    padding: 0.3rem 0.5rem;
+  }
+
+  /* INDEX-SPECIFIKA REGLER */
   main {
     flex-direction: column;
     padding: 6rem 1rem 2rem;
@@ -648,7 +674,7 @@ footer {
   }
 
   .welcome-section {
-    order: 1; /* Bilden först på mobil också */
+    order: 1;
   }
 
   .info-section {
@@ -661,16 +687,6 @@ footer {
 
   .welcome-section h2 {
     font-size: 1rem;
-  }
-
-  .navbar ul {
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .navbar li {
-    font-size: 0.9rem;
   }
 }
 
