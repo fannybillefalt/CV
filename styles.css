@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(./img/hero-bg.jpg); 
+  background-image: url(./img/hero-bg.jpg);
   background-size: cover; /* Bilden täcker hela ytan */
   background-repeat: no-repeat; /* Bilden upprepas inte */
   background-attachment: fixed; /* Bakgrunden scrollar inte med */
@@ -28,7 +28,7 @@ body {
   padding: 1em;
   z-index: 1000;
 }
-.navbar ul{
+.navbar ul {
   display: flex;
   list-style: none;
   /* margin:0;
@@ -60,17 +60,17 @@ body {
   -o-transform: scale(1.1);
 }
 
-.navbar a.active{
-  color: rgb(210,191,239);
+.navbar a.active {
+  color: rgb(210, 191, 239);
   background-color: rgba(87, 87, 87, 0.3);
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }
 
 /* FRÅN MAIN OCH NERÅT */
-main{
+main {
   min-height: 100vh;
-    padding: 8rem 2rem 2rem;
+  padding: 8rem 2rem 2rem;
 }
 /* INDEX SIDANS MAIN */
 .home-main {
@@ -167,7 +167,7 @@ main{
 }
 
 /* HÄR BÖRJAR OM MIG KATEGORIN */
-.about-main{
+.about-main {
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -177,14 +177,14 @@ main{
 
 /* FÖRSTA SEKTION -OM MIG */
 
-.about-section{
-  display:flex;
+.about-section {
+  display: flex;
   justify-content: center;
 }
 
 .learn-wrapper {
-  background-color: rgba(255,255,255, 0.9);
-  border: 3px solid rgb(210,191,239);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 3px solid rgb(210, 191, 239);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -192,10 +192,10 @@ main{
   -o-border-radius: 20px;
   padding: 3rem;
   max-width: 900px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.learn-wrapper h2{
+.learn-wrapper h2 {
   font-size: 2rem;
   font-style: italic;
   color: rgb(87, 87, 87);
@@ -203,7 +203,7 @@ main{
   text-align: justify;
 }
 
-.learn-wrapper p{
+.learn-wrapper p {
   font-size: 1.1rem;
   line-height: 1.8;
   color: rgb(70, 70, 70);
@@ -217,7 +217,7 @@ main{
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  background-color: rgba(255,255,255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border: 3px solid rgb(210, 191, 239);
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -230,31 +230,31 @@ main{
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.kuriosa-wrapper h2{
+.kuriosa-wrapper h2 {
   font-size: 2rem;
   font-style: italic;
   color: rgb(87, 87, 87);
   margin-bottom: 1.5rem;
 }
 
-.kuriosa-wrapper ul{
+.kuriosa-wrapper ul {
   list-style: none;
   padding: 0;
 }
 
-.kuriosa-wrapper li{
+.kuriosa-wrapper li {
   margin-bottom: 1rem;
   /* padding-left: 1.5rem; */
   position: relative;
 }
 
-.kuriosa-wrapper p{
+.kuriosa-wrapper p {
   font-size: 1rem;
   line-height: 1.6;
   color: rgb(70, 70, 70);
 }
 
-.img-family{
+.img-family {
   flex-shrink: 0;
 }
 
@@ -267,11 +267,11 @@ main{
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border: 0 4px 10px rgba(0,0,0,0.2);
+  border: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* HÄR BÖRJAR CV KATEGORIN */
-.cv-main{
+.cv-main {
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -280,10 +280,10 @@ main{
   align-items: flex-start;
 }
 
-.cv-section{
+.cv-section {
   flex: 1;
-  background-color: rgba(255,255,255, 0.9);
-  border: 3px solid rgb(210,191,239);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 3px solid rgb(210, 191, 239);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -293,17 +293,17 @@ main{
   box-shadow: 0 4px 15 px rgba(0, 0, 0, 0.1);
 }
 
-.cv-section h3{
+.cv-section h3 {
   font-size: 2rem;
   font-style: italic;
   color: rgb(87, 87, 87);
   margin-bottom: 2rem;
   text-align: center;
-  border-bottom: 2px solid rgb(87,87,87);
+  border-bottom: 2px solid rgb(87, 87, 87);
   padding-bottom: 1rem;
 }
 
-.cv-item{
+.cv-item {
   margin-bottom: 2rem;
   padding: 1.5rem;
   background-color: rgba(255, 255, 255, 0.5);
@@ -313,14 +313,24 @@ main{
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  -webkit-transition: transform 0.2s ease, box-shadow 0.2s ease;
-  -moz-transition: transform 0.2s ease, box-shadow 0.2s ease;
-  -ms-transition: transform 0.2s ease, box-shadow 0.2s ease;
-  -o-transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  -webkit-transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  -moz-transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  -ms-transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  -o-transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.cv-item:hover{
+.cv-item:hover {
   transform: translateX(5px);
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -355,12 +365,12 @@ main{
 
 /* HÄR BÖRJAR PORTFOLIO KATEGORIN */
 
-.portfolio-main{
+.portfolio-main {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-.portfolio-main h1{
+.portfolio-main h1 {
   font-size: 3rem;
   text-align: center;
   color: rgb(50, 50, 50);
@@ -368,25 +378,27 @@ main{
   font-style: italic;
 }
 
-.cards{
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 4rem;
 }
 
-.card{
+.card {
   background-color: rgba(255, 255, 255, 0.95);
   border: 2px solid rgb(210, 191, 239);
   border-radius: 15px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
@@ -398,20 +410,20 @@ main{
   display: block;
 }
 
-.card h4{
+.card h4 {
   font-size: 1.5rem;
   color: rgb(70, 70, 70);
   margin: 1.5rem 1.5rem 0.5rem;
   font-weight: 600;
 }
-.card > p{
-  font-size: 0.95rem;;
+.card > p {
+  font-size: 0.95rem;
   color: rgb(100, 100, 100);
   margin: 0 1.5rem 1rem;
   font-style: italic;
 }
 
-.tags{
+.tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -420,7 +432,7 @@ main{
   margin: 1rem 0;
 }
 
-.tags li{
+.tags li {
   background-color: rgb(210, 191, 239);
   color: rgb(50, 50, 50);
   padding: 0.3rem 0.8rem;
@@ -429,7 +441,7 @@ main{
   font-weight: 500;
 }
 
-.card-link{
+.card-link {
   display: inline-block;
   margin: 1rem 1.5rem 1.5rem;
   color: rgb(87, 87, 87);
@@ -500,42 +512,42 @@ main{
   color: rgb(210, 191, 239);
 }
 
-.modal-content h2{
+.modal-content h2 {
   font-size: 2rem;
   color: rgb(70, 70, 70);
   margin-bottom: 1rem;
   font-style: italic;
 }
 
-.modal-content p{
+.modal-content p {
   font-size: 1rem;
   line-height: 1.7;
   color: rgb(80, 80, 80);
   margin-bottom: 1rem;
 }
 
-.modal-content ul{
+.modal-content ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 2rem;
 }
 
-.modal-content ul li{
+.modal-content ul li {
   padding: 0.5rem 0;
   padding-left: 1rem;
   position: relative;
   color: rgb(80, 80, 80);
 }
 
-.modal-content ul li::before{
+.modal-content ul li::before {
   content: "✓";
-  positon:absolute;
+  positon: absolute;
   left: 0;
   color: rgb(210, 191, 239);
   font-weight: bold;
 }
 
-.github-link{
+.github-link {
   display: inline-block;
   background-color: rgb(210, 191, 239);
   color: rgb(50, 50, 50);
@@ -547,11 +559,21 @@ main{
   -o-border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  -webkit-transition: background-color 0.2s ease, transform 0.2s ease;
-  -moz-transition: background-color 0.2s ease, transform 0.2s ease;
-  -ms-transition: background-color 0.2s ease, transform 0.2s ease;
-  -o-transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+  -webkit-transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+  -moz-transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+  -ms-transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+  -o-transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .github-link:hover {
@@ -559,7 +581,7 @@ main{
   transform: translateY(-2px);
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .portfolio-main h1 {
     font-size: 2rem;
   }
@@ -580,7 +602,7 @@ main{
 
 /* HÄR BÖRJAR KONTAKT KATEGORIN */
 
-.contact-main{
+.contact-main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,21 +610,21 @@ main{
   margin: 0 auto;
 }
 
-.contact-section{
-  background-color: rgda(255,255,255, 0.9);
-  border: 3px solid rgb(210,191,239);
+.contact-section {
+  background-color: rgda(255, 255, 255, 0.9);
+  border: 3px solid rgb(210, 191, 239);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  padding:3rem;
+  padding: 3rem;
   max-width: 600px;
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.contact-section h2{
+.contact-section h2 {
   font-size: 2.5rem;
   font-style: italic;
   color: rgb(87, 87, 87);
@@ -616,7 +638,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgb(87, 87, 87);
 }
-
 
 /* RESPONSIV DESIGN - INDEX*/
 @media (max-width: 768px) {
