@@ -1,0 +1,53 @@
+{
+  "work": [
+    {
+      "company": "Euromaster AB",
+      "role": "Kundtjänst",
+      "period": "februari 2020 - april 2020",
+      "description": "Arbetade som kundtjänst under däcksäsongen. Hjälpte kunder via telefon och mejl med t ex däckfrågor, bokningar, försäljning av fälg och däck, mersälj ingick."
+    },
+    {
+      "company": "Barona fd Ageris",
+      "role": "Bankmedarbetare",
+      "period": "september 2014 - augusti 2015",
+      "description": "Arbetade för Coop MedMera Bank, då Ageris outsourcade deras kundtjänst. Tog emot samtal och hjälpte kunder med deras ekonomiska ärenden gällande Coop MedMera Bank. Mersälj ingick."
+    },
+    {
+      "company": "Swedbank AB",
+      "role": "Bankmedarbetare",
+      "period": "maj 2013 - september 2014",
+      "description": "Tog emot samtal på Kort Kundsupport och hjälpte kunder inrikes och utrikes med deras kort. Hjälpte till med spärr av kort, utskick av kort och pengar till utlandet."
+    },
+    {
+      "company": "Tele2 AB",
+      "role": "Företagskundtjänst",
+      "period": "februari 2012 - oktober 2012",
+      "description": "Hjälpte företagskunder via telefon och mejl med t ex fakturafrågor, abonnemangsfrågor, felanmälningar, utskick av produkter bl. a."
+    }
+  ],
+  "education": [
+    {
+      "school": "Campus Varberg",
+      "degree": "Systemutvecklare .NET",
+      "period": "HT 2025 - pågående"
+    },
+    {
+      "school": "Göteborgs Universitet",
+      "degree": "Hälsopromotion - Hälsovetenskap",
+      "period": "HT 2020 - VT 2021",
+      "note": "1/3 år fullständiga"
+    },
+    {
+      "school": "Göteborgs Universitet",
+      "degree": "Arabiska",
+      "period": "januari 2018 - januari 2019",
+      "note": "Enskild kurs, 30hp"
+    },
+    {
+      "school": "JENSEN Västra Gymnasium",
+      "degree": "Samhällsvetenskap",
+      "period": "HT 2007 - VT 2011",
+      "note": "Fullständiga poäng"
+    }
+  ]
+}
