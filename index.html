@@ -24,7 +24,7 @@
     </header>
     <main class="home-main">
         <section class="welcome-section">
-              <img
+              <img id="profile-pic"
                 src="./img/ChatGPT Image 11 feb. 2026 14_44_24.png"
                 alt="En bild på Fanny Billefält"
               />
@@ -33,7 +33,7 @@
         <section class="info-section">
 
           <h1>Hej, jag heter Fanny Billefält</h1>
-          <h2>Jag studerar till Systemuvecklare .NET på Campus Varberg.</h2>
+          <h2>Jag studerar till Systemutvecklare .NET på Campus Varberg.</h2>
 
           <ul class="contact-list">
             <li>
@@ -52,9 +52,17 @@
             </li>
           </ul>
         </section>
+        <div id="easterEggModal" class="modal">
+  <div class="modal-content">
+    <img src="./img/finally.gif" alt="Easter Egg GIF" />
+    <br>
+    <button onclick="closeModal()">Stäng</button>
+  </div>
+</div>
     </main>
     <footer>
       <p>&copy; Fanny Billefält SUT-25</p>
     </footer>
+  <script src="./easteregg.js"></script>
   </body>
 </html>
