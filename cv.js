@@ -1,6 +1,6 @@
 async function loadCV() {
   try {
-    const response = await fetch("CV.json");
+    const response = await fetch("cv.json");
     const data = await response.json();
 
     const workSection = document.getElementById("work-section");
