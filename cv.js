@@ -1,11 +1,11 @@
 async function loadCV() {
   try {
-    const response = await fetch("cv.json");
+    const response = await fetch("CV.json");
     const data = await response.json();
 
     const workSection = document.getElementById("work-section");
 
-    workSection.innerHTML = '';
+    workSection.innerHTML = "";
 
     data.work.forEach((job) => {
       const article = document.createElement("article");
@@ -14,13 +14,13 @@ async function loadCV() {
       article.innerHTML = `
         <h4>${job.company}</h4>
         <h5>${job.role} | ${job.period}</h5>
-        ${job.description ? `<p>${job.description}</p>` : ""}`;//ternary, om truthy skriv ut beskrivning, falsy en tom sträng
+        ${job.description ? `<p>${job.description}</p>` : ""}`; //ternary, om truthy skriv ut beskrivning, falsy en tom sträng
 
       workSection.appendChild(article);
     });
 
     const educationSection = document.getElementById("education-section");
-    educationSection.innerHTML = '';//tömmer först för att förhindra duplicering
+    educationSection.innerHTML = ""; //tömmer först för att förhindra duplicering
 
     data.education.forEach((education) => {
       const article = document.createElement("article");
@@ -37,7 +37,5 @@ async function loadCV() {
     console.log("Misslyckades att ladda CV:", error);
   }
 }
-
-
 
 loadCV();
