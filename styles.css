@@ -355,12 +355,14 @@ main {
   border: 2px solid rgb(210, 191, 239);
   border-radius: 15px;
   overflow: hidden;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease,    box-shadow 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  -webkit-transition: transform 0.3s ease,    box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease,    box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease,    box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease,    box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -510,6 +512,7 @@ main {
 ========================== */
 .github-link {
   display: inline-block;
+  margin-top:auto;
   background-color: rgb(210, 191, 239);
   color: rgb(50, 50, 50);
   padding: 0.8rem 1.5rem;
