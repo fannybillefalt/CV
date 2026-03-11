@@ -19,7 +19,6 @@ async function loadPortfolio(){
             card.innerHTML = `
             <h4>${repo.name}</h4>
             <p>${repo.description || 'Ingen beskrivning'}</p>
-            <p class="repo-language">${repo.language}</p>
             <a href="${repo.html_url}" target="_blank" class="github-link">Se på GitHub</a>`;
 
             container.appendChild(card);
