@@ -19,10 +19,22 @@
       "description": "Tog emot samtal på Kort Kundsupport och hjälpte kunder inrikes och utrikes med deras kort. Hjälpte till med spärr av kort, utskick av kort och pengar till utlandet."
     },
     {
+      "company": "Klarna AB",
+      "role": "Finansadministratör",
+      "period": "februari 2013 - april 2013",
+      "description": "Konsult vid behov. Sammanställde Klarnas kunder i CRM system: Salseforce samt hanterade återbetalning, returpost och överföringar i Klarnas egna system."
+    },
+    {
       "company": "Tele2 AB",
       "role": "Företagskundtjänst",
       "period": "februari 2012 - oktober 2012",
       "description": "Hjälpte företagskunder via telefon och mejl med t ex fakturafrågor, abonnemangsfrågor, felanmälningar, utskick av produkter bl. a."
+    },
+    {
+      "company": "Mc Donalds",
+      "role": "Medarbetare/Värdinna",
+      "period": "januari 2010 - december 2011",
+      "description": "Arbetade som kassamedarbetare och värdinna. Som värdinna anordnade jag barnkalas, events, delade ut smakprover samt skapade kontakt med gästerna."
     }
   ],
   "education": [
@@ -39,7 +51,7 @@
     },
     {
       "school": "Bodil Freys Doulautbildning",
-      "degree": "Doula - förlossningsstöd.",
+      "degree": "Doula - gravid & förlossningsstöd",
       "period": "HT 2018",
       "note": "Inklusive amningstöd, akupressur och aktiv baby-instruktör"
     },
